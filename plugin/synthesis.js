@@ -1,5 +1,5 @@
 Plugin.registerCompiler({
-  extensions: ['html'],
+  extensions: ['pl.html'],
   archMatching: 'web',
   isTemplate: true
 }, () => new PolymerCachingHtmlCompiler("synthesis", parseHtml, dissectHtml));

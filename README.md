@@ -1,8 +1,8 @@
-# Synthesis is meteor + polymer
+# Synthesis-blaze is meteor + polymer + blaze
 
 ## Installation
 
-`meteor add mwc:synthesis`
+`meteor add mwc:synthesis-blaze`
 
 synthesis is a meteor 1.3+ package.
 
@@ -12,13 +12,16 @@ You can optionally use these packages from meteorwebcomponents
 
 [mwc:router](https://github.com/meteorwebcomponents/router) - Flowrouter with polymer
 
+
 ## Usage
 
-Define your elements in the client folder.
+Define your polymer elements in the client folder.
+
+html files with extension .pl.html are processed by synthesis.
 
 you can add js in separate file or you can add it inside the element html file using script tag.
 
-client/test-element.html
+client/test-element.pl.html
 
 
 ```html
@@ -58,7 +61,7 @@ Polymer({
 
 ```
 
-client/index.html (you can use any filename)
+client/index.pl.html (you can change this to anyname.pl.html)
 
 ```html
 
@@ -97,3 +100,4 @@ A sample bower.json (public/bower.json)
 ```
 
 You can use [differential:vulcanize](https://atmospherejs.com/differential/vulcanize) to vulcanize polymer elements instead of adding them in the head directly.
+

@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'mwc:synthesis',
+  name: 'mwc:synthesis-blaze',
   version: '1.0.2',
   summary: 'Synthesis is meteor + polymer',
   git: 'https://github.com/meteorwebcomponents/synthesis',
