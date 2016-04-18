@@ -1,3 +1,5 @@
+> UNMAINTAINED
+
 # Synthesis-Blaze is Meteor + Polymer + Blaze
 
 
